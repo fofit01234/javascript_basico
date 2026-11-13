@@ -1,0 +1,17 @@
+<html lang="es">
+    <head>
+        <meta charset="UTC-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Boton dinamico</title>
+    </head>
+    <body>
+        <h1>Pagina dinamica</h1>
+        <p id="texto"></p>
+        <button onclick="showText()">Show text</button>
+    </body>
+    <script>
+        function showText() {
+            document.getElementById("texto").innerHTML="Texto actualizado con Javascript!"
+        }
+    </script>
+</html>

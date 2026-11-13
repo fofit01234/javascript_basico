@@ -1,0 +1,23 @@
+<html lang="es">
+    <head>
+        <meta charset="UTC-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Demostracion output JavaScript</title>
+    </head>
+    <body>
+        <h1>Demostración de output JavaScript</h1>
+        <p id="text"></p>
+        <button onclick="showAlert()">Show Name</button>
+        <button onclick="showText()">Show Text</button>
+    </body>
+    <script>
+        function showAlert() {
+            alert("Adolfo Corona")
+        }
+
+        function showText() {
+            document.getElementById("text").innerHTML="¡Texto actualizado con Javascript!"
+        }
+        console.log("texto consola hola")
+    </script>
+</html>
